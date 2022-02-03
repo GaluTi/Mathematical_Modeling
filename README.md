@@ -1,5 +1,5 @@
-# There are two projects:
-1) Swarm Modeling
+# There are two projects on Qt:
+1) Swarm Modeling:
 Here is implemented a primitive interaction. Distant particles attract, while nearby particles repel. You can add new particles with zero initial velocity just by clicking on the graph, use "Add by Click". You can also add many particles at once by setting the distribution of their coordinates and velocities. But you can't add more than 500 particles.
-2) Space Debris
+2) Space Debris:
 Here is implemented a primitive model of the behavior of space debris. The Earth is at the origin. As before, you can add particles on click or using distribution. But also you can add real data. First you need to create a cluster. Specify color (RGB format, each value from 0 to 255). You can create many clusters of different colors. Use the data from:https://celestrak.com/NORAD/elements/ and paste them in the line TLE. When adding TLE data, a second cluster is created, which has an inverted color and is updated according to the TLE model. The update happens so that 1 real second = 10 virtual seconds. You can also see the update in three projections: XY, XZ, YZ. But when adding more than 100 objects, the model starts to slow down.
