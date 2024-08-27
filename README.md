@@ -1,4 +1,4 @@
-# There are two projects on Qt:
+# There are two projects on Qt (switch to the appropriate branch):
 1) Swarm Modeling:
 Here is implemented a primitive interaction. Distant particles attract, while nearby particles repel. You can add new particles with zero initial velocity just by clicking on the graph, use "Add by Click". You can also add many particles at once by setting the distribution of their coordinates and velocities. But you can't add more than 500 particles.
 2) Space Debris:
